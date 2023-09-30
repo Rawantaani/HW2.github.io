@@ -1,0 +1,50 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
+    background-image: url(assest/pexels-irina-iriser-943905.jpg);
+
+}
+
+.info-div{
+  
+   padding: 20px;
+ 
+ align-items: center;
+ width: 30vw;
+ height: 45vh;
+ margin:  auto;
+ background-color: lightgrey;
+
+}
+
+.text,.pas{
+    width: 100%;
+    border-radius:20px;
+    border: none;
+    background-color: yellow;
+    height: 30px;
+    padding: 4px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.button{
+    width: 100%;
+    padding: 10px ;
+    border-radius: 1px;
+    background-color: darkslategrey;
+    color: aliceblue;
+    border: none;
+}
